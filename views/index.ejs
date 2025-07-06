@@ -1,0 +1,86 @@
+<%- include('./components/header') %>
+<body>
+    <div>
+        <h1>
+            Deck Counts / Top 25
+        </h1>
+        <% let deckTotal = 0; %>
+        <ul>
+            <% for (let i = 0; i < counts.length; i++){ %>
+                <% deckTotal += counts[i][1] %>
+                <% if(i < 24){ %>
+                    <li>
+                        <%= counts[i][0] %> : <%= counts[i][1] %> 
+                    </li>
+                <% } %>
+            <% } %>
+        </ul>
+        <h3>
+            Total: <%= deckTotal %> 
+        </h3>
+    </div>
+    <div>
+        <h3>
+            Filters
+        </h3>
+        <label for="deck">Deck:</label>
+        <select onchange="filterTable('deck', this.options[this.selectedIndex].text)" name="deck" id="deckfilter">
+            <% for(let i = 0; i < deckfilter.length; i++) { %>
+                <option value="<%= i %>"><%= deckfilter[i] %></option>
+            <% } %>
+        </select>
+        <label for="deckcolor">Color:</label>
+        <select onchange="filterTable('deckcolor', this.options[this.selectedIndex].text)" name="deckcolor" id="deckcolor">
+            <% for(let i = 0; i<deckcolor.length; i++) { %>
+                <option value="<%= i %>"><%= deckcolor[i] %></option>
+            <% } %>
+        </select>
+        <label for="deckplace">Placement:</label>
+        <select onchange="filterTable('placement', this.options[this.selectedIndex].text)" name="deckplace" id="deckplace">
+            <% for(let i = 0; i<deckplace.length; i++) { %>
+                <option value="<%= i %>"><%= deckplace[i] %></option>
+            <% } %>
+        </select>
+        <label for="tournment">Tournment:</label>
+        <select onchange="filterTable('tournment', this.options[this.selectedIndex].text)" name="tournment" id="tournment">
+            <% for(let i = 0; i<tournment.length; i++) { %>
+                <option value="<%= i %>"><%= tournment[i] %></option>
+            <% } %>
+        </select>
+    </div>
+    <div>
+        <h1>Deck Entries</h1>
+        <table id="deckTable">
+            <thead>
+                <tr>
+                    <th>Deck</th>
+                    <th>Color</th>
+                    <th>Place</th>
+                    <th>Tournament</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% let counter = 1; %>
+                <% deckdata.forEach(entry => { %>
+                    <tr id="tr-<%= counter %>" class="<%= entry.deckType %>">
+                        <td class="deck">
+                            <%= entry.deck %>
+                            <a target="blank" href="https://digimonmeta.com/deck-list/<%= entry.link %>">
+                                <svg class="icon" viewBox="0 0 24 24" width="10" height="10">
+                                    <path d="M 19.980469 2.9902344 A 1.0001 1.0001 0 0 0 19.869141 3 L 15 3 A 1.0001 1.0001 0 1 0 15 5 L 17.585938 5 L 8.2929688 14.292969 A 1.0001 1.0001 0 1 0 9.7070312 15.707031 L 19 6.4140625 L 19 9 A 1.0001 1.0001 0 1 0 21 9 L 21 4.1269531 A 1.0001 1.0001 0 0 0 19.980469 2.9902344 z M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 13 A 1.0001 1.0001 0 1 0 19 13 L 19 19 L 5 19 L 5 5 L 11 5 A 1.0001 1.0001 0 1 0 11 3 L 5 3 z"></path>
+                                </svg>
+                            </a>
+                        </td>
+                        <td class="deckcolor"><%= entry.color %></td>
+                        <td class="placement"><%= entry.place %></td>
+                        <td class="tournment"><%= entry.tournment %></td>
+                        <td class="tdate"><%= entry.date %></td>
+                    </tr>
+                    <% counter++; %>
+                <% }) %>
+            </tbody>
+        </table>
+   </div>
+</body>
+</html>
