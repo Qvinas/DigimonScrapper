@@ -14,17 +14,30 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "/views"));
 
 let deckdata;
+let loadingDeckData = false;
 
 app.use(async (req, res, next) => {
-    if (!deckdata) {
-        try {
-            deckdata = await withTimeout(getDeckdata(), 5000);
-        } catch (err) {
-            console.error('Error loading deck data:', err.message);
-            return res.status(500).render('error', { message: 'Failed to load deck data. Try again later.' });
-        }
+  if (!deckdata) {
+    if (!loadingDeckData) {
+      loadingDeckData = true;
+      withTimeout(getDeckdata(), 5000)
+        .then(data => {
+          deckdata = data;
+          loadingDeckData = false;
+          console.log('Deck data loaded');
+        })
+        .catch(err => {
+          loadingDeckData = false;
+          console.error('Failed to load deck data:', err.message);
+        });
     }
-    next();
+    return res.render('landing'); // Show landing page immediately
+  }
+  next();
+});
+
+app.get('/deckdata-ready', (req, res) => {
+  res.json({ ready: !!deckdata });
 });
 
 app.get('/', (req, res) => {
