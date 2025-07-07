@@ -1,7 +1,7 @@
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
-import { getDeckdata, deckCount } from "./deckModule.js";
+import { getDeckdata, deckCount, getUniqueSortedValues } from "./deckModule.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -13,9 +13,42 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "/views"));
 
-app.get('/', async (req, res) => {
+let deckdata;
+
+app.use(async (req, res, next) => {
+    if (!deckdata) {
+        try {
+            deckdata = await withTimeout(getDeckdata(), 5000);
+        } catch (err) {
+            console.error('Error loading deck data:', err.message);
+            return res.status(500).render('error', { message: 'Failed to load deck data. Try again later.' });
+        }
+    }
+    next();
+});
+
+app.get('/', (req, res) => {
+        const counts = deckCount(deckdata);
+        const deckfilter = getUniqueSortedValues(deckdata, 'deckType');
+        const deckcolor = getUniqueSortedValues(deckdata, 'color');
+        const deckplace = getUniqueSortedValues(deckdata, 'place');
+        const tournment = getUniqueSortedValues(deckdata, 'tournment');
+
+        res.render('index', {
+            deckdata,
+            counts,
+            deckfilter,
+            deckcolor,
+            deckplace,
+            tournment
+        });
+    } 
+);
+
+
+app.get('/Stats', async (req, res) => {
     try {
-        const deckdata = await withTimeout(getDeckdata(), 5000); // 5 seconds timeout
+        const deckdata = await withTimeout(getDeckdata(), 5000);
         const counts = deckCount(deckdata);
         const deckfilter = [...new Set(deckdata.map(item => item.deckType))].sort();
         const deckcolor = [...new Set(deckdata.map(item => item.color))].sort();

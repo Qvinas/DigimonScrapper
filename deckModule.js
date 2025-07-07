@@ -1,6 +1,7 @@
 //const  { scrapePage } = require('./scrapper.js');
 //const { getDecks } = require('./scrapperV2.js');
 
+import { setFlagsFromString } from 'v8';
 import { getDecks } from './scrapperV2.js';
 
 export async function getDeckdata(){
@@ -36,4 +37,8 @@ export function deckCount(deckdata){
     .sort((a, b) => b[1] - a[1]);  // sort descending by count
 
     return sortedDeckCounts
+}
+
+export function getUniqueSortedValues(data, key) {
+  return [...new Set(data.map(item => item[key]))].sort();
 }
