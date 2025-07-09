@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loading...</title>
+  <script>
+    const minDisplayTime = 1000;
+    const startTime = Date.now();
+
+    const checkReady = () => {
+      fetch('/deckdata-ready')
+        .then(res => res.json())
+        .then(data => {
+          if (data.ready) {
+            const elapsed = Date.now() - startTime;
+            const remaining = minDisplayTime - elapsed;
+
+            if (remaining > 0) {
+              // Wait remaining time before redirect
+              setTimeout(() => {
+                window.location.href = '/';
+              }, remaining);
+            } else {
+              // Already shown for > 1s, redirect immediately
+              window.location.href = '/';
+            }
+          } else {
+            setTimeout(checkReady, 2000);
+          }
+        })
+        .catch(() => {
+          setTimeout(checkReady, 2000);
+        });
+    };
+
+    window.onload = checkReady;
+  </script>
+</head>
+<body>
+  <h1>Loading deck data, please wait...</h1>
+</body>
+</html>
