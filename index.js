@@ -58,22 +58,6 @@ app.get('/', (req, res) => {
     } 
 );
 
-
-app.get('/Stats', async (req, res) => {
-    try {
-        const deckdata = await withTimeout(getDeckdata(), 5000);
-        const counts = deckCount(deckdata);
-        const deckfilter = [...new Set(deckdata.map(item => item.deckType))].sort();
-        const deckcolor = [...new Set(deckdata.map(item => item.color))].sort();
-        const deckplace = [...new Set(deckdata.map(item => item.place))].sort();
-        const tournment = [...new Set(deckdata.map(item => item.tournment))].sort();
-        res.render('index', { deckdata, counts, deckfilter, deckcolor,deckplace, tournment});
-    } catch (err) {
-        console.error('Error in / route:', err.message);
-        res.status(500).render('error', { message: 'Failed to load deck data. Try again later.' });
-    }
-});
-
 app.get('/deck/:deck', (req,res) => {
     const {deck} = req.params
     res.send(`Inicio ${deck}`)

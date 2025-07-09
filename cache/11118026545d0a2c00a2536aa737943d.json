@@ -1,5 +1,155 @@
 [
   {
+    "id": "4nST19-01a4nST19-03a4nEX7-024a4nEX9-024a4nP-165a2nST19-08a2nEX7-025a2nEX9-027a1nBT16-055a2nST19-11a4nEX9-032a3nEX7-030a3nEX9-033a1nBT17-041a3nP-136a2nST19-14a2nEX9-067a4nP-105a3nLM-029",
+    "link": "deckinfo2?dn=Puppet Kaguya&date=7/6/2025&cn=JP&au=Yasumon&pl=1st Place&tn=TB&hs=Masachin Cup&dg=4nST19-01a4nST19-03a4nEX7-024a4nEX9-024a4nP-165a2nST19-08a2nEX7-025a2nEX9-027a1nBT16-055a2nST19-11a4nEX9-032a3nEX7-030a3nEX9-033a1nBT17-041a3nP-136a2nST19-14a2nEX9-067a4nP-105a3nLM-029&cs=218",
+    "color": "Yellow",
+    "deckType": "Puppet Kaguya",
+    "deck": "Puppet Kaguya",
+    "date": "2025/07/06",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
+    "id": "4nST19-01a4nST12-12a4nST19-03a3nST19-04a1nEX7-024a3nEX9-024a1nBT7-082a4nP-165a3nEX9-027a1nBT6-084a2nBT16-055a1nBT20-084a4nEX9-032a1nEX5-062a4nEX9-033a2nBT19-074a2nST19-14a4nEX7-063a4nLM-035a2nST20-15",
+    "link": "deckinfo2?dn=Puppet Kaguya&date=7/6/2025&cn=JP&au=Takotomo&pl=1st Place&tn=TB&hs=Creative Style&dg=4nST19-01a4nST12-12a4nST19-03a3nST19-04a1nEX7-024a3nEX9-024a1nBT7-082a4nP-165a3nEX9-027a1nBT6-084a2nBT16-055a1nBT20-084a4nEX9-032a1nEX5-062a4nEX9-033a2nBT19-074a2nST19-14a4nEX7-063a4nLM-035a2nST20-15&cs=236",
+    "color": "Yellow",
+    "deckType": "Puppet Kaguya",
+    "deck": "Puppet Kaguya",
+    "date": "2025/07/06",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
+    "id": "4nEX2-003a3nEX2-019a1nEX8-031a4nBT17-031a2nP-165a4nBT19-034a4nBT17-035a1nBT19-037a2nEX8-037a4nBT19-040a2nEX4-074a2nBT20-037a4nBT19-083a3nP-037a4nP-105a2nP-095a1nP-156a4nLM-029a3nEX2-070",
+    "link": "deckinfo2?dn=Sakuya&date=7/6/2025&cn=JP&au=Gonaa&pl=1st Place&tn=Evo Cup&hs=Game Space&dg=4nEX2-003a3nEX2-019a1nEX8-031a4nBT17-031a2nP-165a4nBT19-034a4nBT17-035a1nBT19-037a2nEX8-037a4nBT19-040a2nEX4-074a2nBT20-037a4nBT19-083a3nP-037a4nP-105a2nP-095a1nP-156a4nLM-029a3nEX2-070&cs=213",
+    "color": "Yellow",
+    "deckType": "Sakuya",
+    "deck": "Sakuya",
+    "date": "2025/07/06",
+    "place": "1st Place",
+    "tournment": "Evo Cup"
+  },
+  {
+    "id": "4nEX2-003a4nEX2-019a2nEX8-031a3nBT17-031a1nEX7-026a2nBT10-036a4nBT19-034a4nBT17-035a1nBT19-037a2nEX8-037a3nBT19-040a1nEX4-074a2nBT20-037a1nEX2-060a4nBT19-083a3nP-037a4nP-105a1nP-095a4nLM-029a4nEX2-070",
+    "link": "deckinfo2?dn=Sakuya&date=7/6/2025&cn=Spain&au=saito95&pl=1st PLace&tn=TB(8-2)&hs=GeekLogiashop&dg=4nEX2-003a4nEX2-019a2nEX8-031a3nBT17-031a1nEX7-026a2nBT10-036a4nBT19-034a4nBT17-035a1nBT19-037a2nEX8-037a3nBT19-040a1nEX4-074a2nBT20-037a1nEX2-060a4nBT19-083a3nP-037a4nP-105a1nP-095a4nLM-029a4nEX2-070&cs=236",
+    "color": "Yellow",
+    "deckType": "Sakuya",
+    "deck": "Sakuya",
+    "date": "2025/07/06",
+    "place": "1st PLace",
+    "tournment": "TB(8-2)"
+  },
+  {
+    "id": "4nBT12-006a4nBT12-074a4nBT12-075a4nBT21-063a4nBT12-011a1nBT12-063a4nBT12-077a4nBT21-066a4nBT12-083a4nBT21-072a3nBT12-087a1nBT12-094a3nBT12-098a2nBT21-083a4nBT21-088a1nST20-15a3nBT21-099",
+    "link": "deckinfo2?dn=Hunter&date=7/6/2025&cn=JP&au=Shuto&pl=1st Place&tn=Evo Cup&hs=Bookoff(13)&dg=4nBT12-006a4nBT12-074a4nBT12-075a4nBT21-063a4nBT12-011a1nBT12-063a4nBT12-077a4nBT21-066a4nBT12-083a4nBT21-072a3nBT12-087a1nBT12-094a3nBT12-098a2nBT21-083a4nBT21-088a1nST20-15a3nBT21-099&cs=214",
+    "color": "Purple",
+    "deckType": "Hunter",
+    "deck": "Hunter",
+    "date": "2025/07/06",
+    "place": "1st Place",
+    "tournment": "Evo Cup"
+  },
+  {
+    "id": "4nST21-01a2nST20-02a4nST20-07a4nBT16-082a4nST20-03a4nST21-08a4nEX9-012a4nEX9-019a3nEX9-013a3nEX9-020a4nEX9-021a2nST20-13a2nST21-13a2nEX9-066a2nBT21-102a3nST20-14a3nST20-15",
+    "link": "deckinfo2?dn=Adventure AlterS&date=7/6/2025&cn=China&au=NA&pl=1st Place&tn=TB&hs=Cardshop(12)&dg=4nST21-01a2nST20-02a4nST20-07a4nBT16-082a4nST20-03a4nST21-08a4nEX9-012a4nEX9-019a3nEX9-013a3nEX9-020a4nEX9-021a2nST20-13a2nST21-13a2nEX9-066a2nBT21-102a3nST20-14a3nST20-15&cs=206",
+    "color": "Purple",
+    "deckType": "Adventure AlterS",
+    "deck": "Adventure AlterS",
+    "date": "2025/07/06",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
+    "id": "4nP-177a3nEX8-009a2nBT5-071a4nBT21-064a4nEX8-012a4nBT21-068a1nEX8-015a1nEX9-011a1nEX9-012a1nEX9-018a1nEX9-030a1nEX9-043a2nEX9-064a4nBT19-070a1nBT20-052a3nEX1-073a1nEX3-013a2nEX9-073a1nP-186a3nEX1-066a3nEX9-068a3nLM-033a1nBT7-107a3nBT9-102",
+    "link": "deckinfo2?dn=Machindra-Guil&date=7/6/2025&cn=Thailand&au=xherioh&pl=Top-16&tn=DC-1(6-1)&hs=Bandai&dg=4nP-177a3nEX8-009a2nBT5-071a4nBT21-064a4nEX8-012a4nBT21-068a1nEX8-015a1nEX9-011a1nEX9-012a1nEX9-018a1nEX9-030a1nEX9-043a2nEX9-064a4nBT19-070a1nBT20-052a3nEX1-073a1nEX3-013a2nEX9-073a1nP-186a3nEX1-066a3nEX9-068a3nLM-033a1nBT7-107a3nBT9-102&cs=277",
+    "color": "Purple",
+    "deckType": "Machindra-Guil",
+    "deck": "Machindra-Guil",
+    "date": "2025/07/06",
+    "place": "Top-16",
+    "tournment": "DC-1(6-1)"
+  },
+  {
+    "id": "4nBT13-007a4nBT13-040a4nBT20-083a1nBT13-019a1nBT13-046a1nP-186a3nEX8-074a4nBT20-017a2nBT20-056a3nBT13-112a1nBT17-018a3nBT20-060a4nBT20-102a3nBT8-090a4nBT20-091a4nBT13-110a4nBT15-092a4nBT20-100",
+    "link": "deckinfo2?dn=RoyalKnight&date=7/6/2025&cn=JP&au=Zenon&pl=1st Place&tn=Evo Cup&hs=TCGshop193&dg=4nBT13-007a4nBT13-040a4nBT20-083a1nBT13-019a1nBT13-046a1nP-186a3nEX8-074a4nBT20-017a2nBT20-056a3nBT13-112a1nBT17-018a3nBT20-060a4nBT20-102a3nBT8-090a4nBT20-091a4nBT13-110a4nBT15-092a4nBT20-100&cs=225",
+    "color": "Red",
+    "deckType": "RoyalKnight",
+    "deck": "RoyalKnight",
+    "date": "2025/07/06",
+    "place": "1st Place",
+    "tournment": "Evo Cup"
+  },
+  {
+    "id": "1nBT11-001a4nBT14-001a1nP-123a2nBT14-009a4nBT16-082a3nBT17-009a2nBT18-010a3nBT17-012a1nBT18-011a1nBT18-014a4nBT21-013a3nBT21-014a4nBT21-020a3nBT21-072a2nP-185a1nBT16-013a3nBT12-088a3nBT18-088a4nBT21-082a3nP-035a3nBT4-098",
+    "link": "deckinfo2?dn=Red Hybrid Kaiser&date=7/6/2025&cn=Switzerland&au=PAQI&pl=1st Place&tn=TB&hs=Tepe&dg=1nBT11-001a4nBT14-001a1nP-123a2nBT14-009a4nBT16-082a3nBT17-009a2nBT18-010a3nBT17-012a1nBT18-011a1nBT18-014a4nBT21-013a3nBT21-014a4nBT21-020a3nBT21-072a2nP-185a1nBT16-013a3nBT12-088a3nBT18-088a4nBT21-082a3nP-035a3nBT4-098&cs=256",
+    "color": "Red",
+    "deckType": "Red Hybrid Kaiser",
+    "deck": "Red Hybrid Kaiser",
+    "date": "2025/07/06",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
+    "id": "4nBT14-001a1nBT15-001a2nST12-03a1nP-123a2nBT14-009a3nBT15-008a4nBT16-082a1nBT18-009a4nBT17-022a4nBT17-023a2nBT18-037a1nBT7-025a1nBT7-038a1nBT17-026a4nBT17-028a1nBT17-077a1nP-130a2nEX1-066a3nBT7-087a4nBT17-083a2nBT18-088a1nBT8-097a1nEX1-068a1nST2-13a1nEX4-068a2nBT17-094a1nBT21-091",
+    "link": "deckinfo2?dn=Blue Hybrid&date=7/6/2025&cn=Colombia&au=B0NESdigi&pl=2nd Place&tn=Evo Cup(9-5)&hs=Unlimited Hobby Center&dg=4nBT14-001a1nBT15-001a2nST12-03a1nP-123a2nBT14-009a3nBT15-008a4nBT16-082a1nBT18-009a4nBT17-022a4nBT17-023a2nBT18-037a1nBT7-025a1nBT7-038a1nBT17-026a4nBT17-028a1nBT17-077a1nP-130a2nEX1-066a3nBT7-087a4nBT17-083a2nBT18-088a1nBT8-097a1nEX1-068a1nST2-13a1nEX4-068a2nBT17-094a1nBT21-091&cs=340",
+    "color": "Red",
+    "deckType": "Blue Hybrid",
+    "deck": "Blue Hybrid",
+    "date": "2025/07/06",
+    "place": "2nd Place",
+    "tournment": "Evo Cup(9-5)"
+  },
+  {
+    "id": "1nBT3-006a4nBT15-006a2nEX8-056a4nBT2-070a4nBT16-082a1nLM-025a1nST12-09a1nEX4-019a1nEX8-015a2nEX8-043a1nEX9-011a1nEX9-012a1nEX9-018a1nEX9-030a2nEX9-064a2nBT7-013a1nBT18-026a1nBT18-053a1nBT20-052a2nEX3-013a4nEX9-073a2nBT12-072a2nEX9-068a4nBT11-092a3nEX1-069a3nBT9-102a3nBT15-096",
+    "link": "deckinfo2?dn=Machindra&date=7/5/2025&cn=Croatia&au=Death1305&pl=1st Place&tn=TB&hs=Konan Games Split&dg=1nBT3-006a4nBT15-006a2nEX8-056a4nBT2-070a4nBT16-082a1nLM-025a1nST12-09a1nEX4-019a1nEX8-015a2nEX8-043a1nEX9-011a1nEX9-012a1nEX9-018a1nEX9-030a2nEX9-064a2nBT7-013a1nBT18-026a1nBT18-053a1nBT20-052a2nEX3-013a4nEX9-073a2nBT12-072a2nEX9-068a4nBT11-092a3nEX1-069a3nBT9-102a3nBT15-096&cs=318",
+    "color": "Purple",
+    "deckType": "Machindra",
+    "deck": "Machindra",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
+    "id": "1nBT3-006a4nBT15-006a1nP-123a2nEX8-056a3nBT13-078a4nBT16-082a1nLM-025a3nEX9-011a1nEX9-012a2nEX9-018a1nEX9-030a1nEX9-041a1nEX9-043a3nEX9-064a2nBT7-013a1nBT19-025a1nBT20-052a2nEX3-013a4nEX9-073a2nBT12-072a3nEX9-068a3nBT11-092a3nEX1-069a3nBT9-102a3nBT15-096",
+    "link": "deckinfo2?dn=Machindra&date=7/5/2025&cn=Japan&au=NA&pl=1st Place&tn=UltimateCup&hs=Bandai(108)&dg=1nBT3-006a4nBT15-006a1nP-123a2nEX8-056a3nBT13-078a4nBT16-082a1nLM-025a3nEX9-011a1nEX9-012a2nEX9-018a1nEX9-030a1nEX9-041a1nEX9-043a3nEX9-064a2nBT7-013a1nBT19-025a1nBT20-052a2nEX3-013a4nEX9-073a2nBT12-072a3nEX9-068a3nBT11-092a3nEX1-069a3nBT9-102a3nBT15-096&cs=290",
+    "color": "Purple",
+    "deckType": "Machindra",
+    "deck": "Machindra",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "UltimateCup"
+  },
+  {
+    "id": "4nBT12-002a4nP-117a1nP-118a4nBT12-021a4nBT12-047a1nBT16-017a1nEX1-014a4nBT12-022a4nBT12-050a2nBT21-037a2nST9-05a1nBT12-028a4nBT16-025a1nST9-06a1nEX8-074a2nBT16-027a2nBT16-028a1nBT20-020a1nBT20-102a2nBT3-093a4nBT16-085a1nBT3-103a3nBT17-097",
+    "link": "deckinfo2?dn=BG Imperial&date=7/5/2025&cn=China&au=Ah Fei&pl=1st Place&tn=3v3&hs=Bandai(420)&dg=4nBT12-002a4nP-117a1nP-118a4nBT12-021a4nBT12-047a1nBT16-017a1nEX1-014a4nBT12-022a4nBT12-050a2nBT21-037a2nST9-05a1nBT12-028a4nBT16-025a1nST9-06a1nEX8-074a2nBT16-027a2nBT16-028a1nBT20-020a1nBT20-102a2nBT3-093a4nBT16-085a1nBT3-103a3nBT17-097&cs=272",
+    "color": "Blue",
+    "deckType": "BG Imperial",
+    "deck": "BG Imperial",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "3v3"
+  },
+  {
+    "id": "4nEX2-003a4nEX2-019a2nEX8-031a2nBT17-031a1nEX7-026a1nBT7-036a4nBT19-034a4nBT17-035a1nBT19-037a2nEX8-037a4nBT19-040a2nEX4-074a2nBT20-037a2nBT1-087a4nBT19-083a3nP-037a4nP-105a1nP-095a4nLM-029a3nEX2-070",
+    "link": "deckinfo2?dn=Sakuya&date=7/5/2025&cn=China&au=Yogurt&pl=1st Place&tn=3v3&hs=Bandai(420)&dg=4nEX2-003a4nEX2-019a2nEX8-031a2nBT17-031a1nEX7-026a1nBT7-036a4nBT19-034a4nBT17-035a1nBT19-037a2nEX8-037a4nBT19-040a2nEX4-074a2nBT20-037a2nBT1-087a4nBT19-083a3nP-037a4nP-105a1nP-095a4nLM-029a3nEX2-070&cs=228",
+    "color": "Yellow",
+    "deckType": "Sakuya",
+    "deck": "Sakuya",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "3v3"
+  },
+  {
+    "id": "4nP-177a4nEX4-006a4nEX8-009a4nBT21-064a2nEX3-057a4nEX8-012a4nBT21-068a2nBT14-076a4nBT21-076a2nEX8-074a2nP-186a1nBT13-111a3nBT21-079a4nP-040a4nP-108a4nBT1-090a1nBT4-111a1nBT7-107",
+    "link": "deckinfo2?dn=Megid-Duke&date=7/5/2025&cn=China&au=RushDark&pl=1st Place&tn=3v3&hs=Bandai(420)&dg=4nP-177a4nEX4-006a4nEX8-009a4nBT21-064a2nEX3-057a4nEX8-012a4nBT21-068a2nBT14-076a4nBT21-076a2nEX8-074a2nP-186a1nBT13-111a3nBT21-079a4nP-040a4nP-108a4nBT1-090a1nBT4-111a1nBT7-107&cs=212",
+    "color": "Purple",
+    "deckType": "Megid-Duke",
+    "deck": "Megid-Duke",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "3v3"
+  },
+  {
     "id": "4nEX9-005a4nEX9-046a4nEX9-047a1nEX9-048a4nEX9-048a4nEX9-048a4nEX9-048a4nEX9-054a2nBT11-068a2nLM-043a3nEX8-074a4nEX9-055a1nBT18-074a4nEX9-057a4nEX1-066a3nST15-14a2nLM-031",
     "link": "deckinfo2?dn=Abbadomon&date=7/5/2025&cn=JP&au=Zukky&pl=1st Place&tn=Evo Cup&hs=Mishima Toys&dg=4nEX9-005a4nEX9-046a4nEX9-047a1nEX9-048a4nEX9-048a4nEX9-048a4nEX9-048a4nEX9-054a2nBT11-068a2nLM-043a3nEX8-074a4nEX9-055a1nBT18-074a4nEX9-057a4nEX1-066a3nST15-14a2nLM-031&cs=202",
     "color": "Black",
@@ -30,6 +180,76 @@
     "tournment": "Evo Cup(4-0)"
   },
   {
+    "id": "4nEX9-004a4nEX9-008a4nEX9-016a4nEX9-035a4nEX9-028a3nEX9-038a4nEX9-051a1nEX9-018a4nEX9-063a3nEX9-064a1nEX8-062a1nEX8-074a4nEX9-065a2nBT20-037a3nEX1-066a4nEX9-069a4nEX9-070",
+    "link": "deckinfo2?dn=Titamon&date=7/5/2025&cn=Spain&au=digimonchos&pl=1st Place&tn=TB&hs=LGS&dg=4nEX9-004a4nEX9-008a4nEX9-016a4nEX9-035a4nEX9-028a3nEX9-038a4nEX9-051a1nEX9-018a4nEX9-063a3nEX9-064a1nEX8-062a1nEX8-074a4nEX9-065a2nBT20-037a3nEX1-066a4nEX9-069a4nEX9-070&cs=196",
+    "color": "Green",
+    "deckType": "Titamon",
+    "deck": "Titamon",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
+    "id": "4nP-177a4nEX4-006a4nEX8-009a4nBT21-064a4nEX8-012a1nBT6-075a4nBT21-068a1nEX8-015a4nBT21-076a2nEX8-074a2nP-186a1nBT13-111a4nBT21-079a4nP-040a4nP-108a4nBT1-090a1nBT7-107a2nBT21-100",
+    "link": "deckinfo2?dn=Megid-Duke&date=7/5/2025&cn=JP&au=KuriRT8&pl=1st Place&tn=Evo Cup(4-0)&hs=Trading Card Kingdom&dg=4nP-177a4nEX4-006a4nEX8-009a4nBT21-064a4nEX8-012a1nBT6-075a4nBT21-068a1nEX8-015a4nBT21-076a2nEX8-074a2nP-186a1nBT13-111a4nBT21-079a4nP-040a4nP-108a4nBT1-090a1nBT7-107a2nBT21-100&cs=226",
+    "color": "Purple",
+    "deckType": "Megid-Duke",
+    "deck": "Megid-Duke",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "Evo Cup(4-0)"
+  },
+  {
+    "id": "4nEX9-015a2nEX9-016a4nEX9-058a4nEX9-052a4nEX9-060a2nEX9-011a3nEX9-018a2nEX9-030a3nEX9-041a3nEX9-043a2nEX9-064a2nEX8-074a3nEX9-073a2nBT21-051a2nEX9-068a4nEX9-069a4nEX9-070",
+    "link": "deckinfo2?dn=Machindra&date=7/5/2025&cn=JP&au=wesker&pl=1st Place&tn=Regulation Battle&hs=Card Paradise&dg=4nEX9-015a2nEX9-016a4nEX9-058a4nEX9-052a4nEX9-060a2nEX9-011a3nEX9-018a2nEX9-030a3nEX9-041a3nEX9-043a2nEX9-064a2nEX8-074a3nEX9-073a2nBT21-051a2nEX9-068a4nEX9-069a4nEX9-070&cs=215",
+    "color": "Purple",
+    "deckType": "Machindra",
+    "deck": "Machindra",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "Regulation Battle"
+  },
+  {
+    "id": "4nBT21-002a4nBT21-009a4nBT21-032a4nBT21-064a4nBT12-077a4nBT21-013a3nBT21-018a4nBT21-023a4nBT21-072a3nBT21-101a3nBT21-080a3nBT21-082a4nBT21-088a3nP-035a1nP-103a2nLM-027",
+    "link": "deckinfo2?dn=Hero Appmon&date=7/5/2025&cn=JP&au=Torinosu&pl=1st Place&tn=TB&hs=Hobby Shop&dg=4nBT21-002a4nBT21-009a4nBT21-032a4nBT21-064a4nBT12-077a4nBT21-013a3nBT21-018a4nBT21-023a4nBT21-072a3nBT21-101a3nBT21-080a3nBT21-082a4nBT21-088a3nP-035a1nP-103a2nLM-027&cs=198",
+    "color": "Red",
+    "deckType": "Hero Appmon",
+    "deck": "Hero Appmon",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
+    "id": "4nBT14-001a4nST20-10a3nBT12-059a4nBT16-082a4nBT17-019a2nEX4-039a3nBT15-101a2nP-182a4nBT17-015a3nBT17-027a1nEX4-073a3nEX9-021a3nBT17-078a1nEX1-066a3nBT17-081a1nBT17-093a2nEX4-061a3nBT21-102a4nBT17-095",
+    "link": "deckinfo2?dn=Omni AlterS&date=7/5/2025&cn=JP&au=Fuji&pl=1st Place&tn=ShopEvent(10-3)&hs=NewDigi Cup&dg=4nBT14-001a4nST20-10a3nBT12-059a4nBT16-082a4nBT17-019a2nEX4-039a3nBT15-101a2nP-182a4nBT17-015a3nBT17-027a1nEX4-073a3nEX9-021a3nBT17-078a1nEX1-066a3nBT17-081a1nBT17-093a2nEX4-061a3nBT21-102a4nBT17-095&cs=240",
+    "color": "Red",
+    "deckType": "Omni AlterS",
+    "deck": "Omni AlterS",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "ShopEvent(10-3)"
+  },
+  {
+    "id": "4nBT8-001a2nST12-12a3nBT6-009a2nBT14-009a4nBT20-008a4nBT10-085a2nBT13-013a4nBT20-013a1nBT20-084a4nBT20-014a2nBT10-016a3nST12-10a4nBT20-057a4nBT20-059a1nBT10-112a2nBT20-021a4nST12-15a4nLM-033",
+    "link": "deckinfo2?dn=Red Jesmon&date=7/5/2025&cn=Spain&au=Rebet15&pl=1st Place&tn=TB&hs=DigiTCG_Cadiz(12)&dg=4nBT8-001a2nST12-12a3nBT6-009a2nBT14-009a4nBT20-008a4nBT10-085a2nBT13-013a4nBT20-013a1nBT20-084a4nBT20-014a2nBT10-016a3nST12-10a4nBT20-057a4nBT20-059a1nBT10-112a2nBT20-021a4nST12-15a4nLM-033&cs=229",
+    "color": "Red",
+    "deckType": "Red Jesmon",
+    "deck": "Red Jesmon",
+    "date": "2025/07/05",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
+    "id": "4nBT14-001a2nST20-10a3nBT12-059a2nBT16-082a3nBT17-007a3nBT17-019a2nEX4-039a2nBT17-102a1nBT14-101a2nBT15-101a4nBT17-015a4nBT17-027a1nEX4-073a4nBT17-078a2nBT20-102a1nP-130a1nST15-14a4nBT17-081a1nBT17-093a2nEX4-061a2nBT21-102a4nBT17-095",
+    "link": "deckinfo2?dn=Omnimon ACE&date=7/4/2025&cn=Indonesia&au=Will&pl=1st Place&tn=TB&hs=Bali Awakening Zone&dg=4nBT14-001a2nST20-10a3nBT12-059a2nBT16-082a3nBT17-007a3nBT17-019a2nEX4-039a2nBT17-102a1nBT14-101a2nBT15-101a4nBT17-015a4nBT17-027a1nEX4-073a4nBT17-078a2nBT20-102a1nP-130a1nST15-14a4nBT17-081a1nBT17-093a2nEX4-061a2nBT21-102a4nBT17-095&cs=276",
+    "color": "Red",
+    "deckType": "Omnimon ACE",
+    "deck": "Omnimon ACE",
+    "date": "2025/07/04",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
     "id": "4nEX9-004a4nEX9-008a4nEX9-014a4nEX9-035a4nEX9-028a3nEX9-038a4nEX9-051a3nEX9-062a4nEX9-063a3nEX9-064a2nEX8-074a4nEX9-065a4nEX1-066a3nEX9-069a4nEX9-070",
     "link": "deckinfo2?dn=Titamon&date=7/4/2025&cn=Canada&au=Costas Reign&pl=1st Place&tn=TB(6-1)&hs=LGS&dg=4nEX9-004a4nEX9-008a4nEX9-014a4nEX9-035a4nEX9-028a3nEX9-038a4nEX9-051a3nEX9-062a4nEX9-063a3nEX9-064a2nEX8-074a4nEX9-065a4nEX1-066a3nEX9-069a4nEX9-070&cs=182",
     "color": "Green",
@@ -38,6 +258,26 @@
     "date": "2025/07/04",
     "place": "1st Place",
     "tournment": "TB(6-1)"
+  },
+  {
+    "id": "4nST21-01a4nST20-02a2nST21-02a3nST21-07a2nST20-03a4nST21-08a2nBT21-057a1nBT21-067a4nEX9-012a4nEX9-019a1nBT21-075a3nEX9-013a3nEX9-020a1nST20-11a3nEX9-021a2nST20-13a2nST21-13a3nEX9-066a3nBT21-102a3nST20-14",
+    "link": "deckinfo2?dn=Adventure AlterS&date=7/4/2025&cn=Australia&au=Vincent T&pl=1st Place&tn=TB&hs=Rhystic Nostalgia Gaming&dg=4nST21-01a4nST20-02a2nST21-02a3nST21-07a2nST20-03a4nST21-08a2nBT21-057a1nBT21-067a4nEX9-012a4nEX9-019a1nBT21-075a3nEX9-013a3nEX9-020a1nST20-11a3nEX9-021a2nST20-13a2nST21-13a3nEX9-066a3nBT21-102a3nST20-14&cs=261",
+    "color": "Purple",
+    "deckType": "Adventure AlterS",
+    "deck": "Adventure AlterS",
+    "date": "2025/07/04",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
+    "id": "4nP-177a4nEX4-006a4nEX8-009a4nBT21-064a2nEX3-057a4nEX8-012a4nBT21-068a1nEX8-015a1nBT14-076a4nBT21-076a1nEX8-074a2nP-186a2nBT13-111a3nBT21-079a4nP-108a1nLM-027a3nLM-038a4nBT1-090a1nBT4-111a1nBT7-107",
+    "link": "deckinfo2?dn=Megid-Duke&date=7/3/2025&cn=Indonesia&au=Joko Minto&pl=1st Place&tn=TB&hs=Mola Hobby Shop&dg=4nP-177a4nEX4-006a4nEX8-009a4nBT21-064a2nEX3-057a4nEX8-012a4nBT21-068a1nEX8-015a1nBT14-076a4nBT21-076a1nEX8-074a2nP-186a2nBT13-111a3nBT21-079a4nP-108a1nLM-027a3nLM-038a4nBT1-090a1nBT4-111a1nBT7-107&cs=241",
+    "color": "Purple",
+    "deckType": "Megid-Duke",
+    "deck": "Megid-Duke",
+    "date": "2025/07/03",
+    "place": "1st Place",
+    "tournment": "TB"
   },
   {
     "id": "4nEX9-005a4nEX9-046a4nEX9-047a4nEX9-048a4nEX9-048a2nEX9-048a4nBT18-078a4nBT18-079a4nEX9-054a2nBT11-068a4nEX9-073a4nEX9-057a1nBT5-085a2nBT8-094a1nBT14-088a1nBT17-091a4nBT18-094a1nBT17-094",
@@ -96,6 +336,16 @@
     "deckType": "Abbadomon",
     "deck": "Abbadomon",
     "date": "2025/07/02",
+    "place": "1st Place",
+    "tournment": "TB"
+  },
+  {
+    "id": "1nBT3-006a4nBT15-006a1nP-123a2nEX8-056a3nBT2-070a4nBT16-082a1nP-101a1nLM-025a1nEX8-043a2nEX9-011a2nEX9-018a1nEX9-030a1nEX9-043a3nEX9-064a1nBT15-064a1nBT18-026a2nBT18-053a1nBT19-011a1nEX1-073a2nEX3-013a4nEX9-073a2nBT12-072a1nBT19-062a2nEX9-068a4nBT11-092a3nBT9-102a4nBT15-096",
+    "link": "deckinfo2?dn=Machindra&date=7/1/2025&cn=Italy&au=Mario Morelli&pl=1st Place&tn=TB&hs=La Civetta&dg=1nBT3-006a4nBT15-006a1nP-123a2nEX8-056a3nBT2-070a4nBT16-082a1nP-101a1nLM-025a1nEX8-043a2nEX9-011a2nEX9-018a1nEX9-030a1nEX9-043a3nEX9-064a1nBT15-064a1nBT18-026a2nBT18-053a1nBT19-011a1nEX1-073a2nEX3-013a4nEX9-073a2nBT12-072a1nBT19-062a2nEX9-068a4nBT11-092a3nBT9-102a4nBT15-096&cs=311",
+    "color": "Purple",
+    "deckType": "Machindra",
+    "deck": "Machindra",
+    "date": "2025/07/01",
     "place": "1st Place",
     "tournment": "TB"
   },
