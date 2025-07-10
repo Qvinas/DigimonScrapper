@@ -2,6 +2,8 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import { getDeckdata, deckCount, getUniqueSortedValues } from "./deckModule.js";
+import { getDeckComps } from "./scrapperV2.js";
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -58,10 +60,17 @@ app.get('/', (req, res) => {
     } 
 );
 
-app.get('/deck/:deck', (req,res) => {
-    const {deck} = req.params
-    res.send(`Inicio ${deck}`)
-})
+app.get('/deck/:deck', async (req, res) => {
+  const { deck } = req.params;
+
+  try {
+    const cardData = await getDeckComps(deck, deckdata);
+    res.render('deckData', {deck,cardData}); // send or render, up to you
+  } catch (err) {
+    console.error(err);
+    res.status(500).send("Error fetching deck components.");
+  }
+});
 
 app.listen(3000, () => {
     //console.log("here")

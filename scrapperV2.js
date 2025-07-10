@@ -27,14 +27,14 @@ async function getOrSetCache(key, fetchFn, isJson = false) {
     const age = Date.now() - stats.mtimeMs;
 
     if (age < CACHE_TTL) {
-      console.log(`Using cached ${isJson ? "JSON" : "HTML"} for: ${key}`);
+      //console.log(`Using cached ${isJson ? "JSON" : "HTML"} for: ${key}`);
       const data = fs.readFileSync(filePath, "utf8");
       return isJson ? JSON.parse(data) : data;
     } else {
-      console.log(`Cache expired for: ${key}`);
+      //console.log(`Cache expired for: ${key}`);
     }
   } else {
-    console.log(`No cache found for: ${key}`);
+    //console.log(`No cache found for: ${key}`);
   }
 
   const freshData = await fetchFn();
@@ -120,7 +120,7 @@ function toSortableDate(dateStr) {
   return `${year}/${month.padStart(2, "0")}/${day.padStart(2, "0")}`;
 }
 
-const limit = pLimit(3); // max 3 concurrent requests
+const limit = pLimit(4); 
 
 async function getDecks(month = 2) {
   const urlList = await scrapePageHome();
@@ -151,4 +151,56 @@ function filterRecentDecks(decks,months) {
   });
 }
 
-export { getDecks };
+async function getDeckCompsbyUrl(url){
+ return await getOrSetCache(
+    url + "::parsedDecks",
+    async () => {
+      const rawhtml = await fetchHtml(url);
+      const $ = cheerio.load(rawhtml);
+
+      let links = [];
+
+      $("#media-gallery > div.row > div.column").each((i, el) => {
+        const $el = $(el);
+
+        const href = $el.find("a.foobox").attr("href");
+        const quantityText = $el.find("figcaption").text().trim();
+        const quantity = parseInt(quantityText.replace(/\D/g, ''), 10); // Extract number
+
+        links.push({ href, quantity });
+      });
+
+      return links;
+    },
+    true
+  );
+}
+
+async function getDeckComps(deckname, decks) {
+  let filteredDecks = decks.filter((deck) => deck.deck === deckname);
+
+  let ndeck = 0;
+  const promises = filteredDecks.map((deck) => {
+    ndeck++
+    let url = `https://digimonmeta.com/deck-list/${deck.link}`;
+    return getDeckCompsbyUrl(url);
+  });
+
+  let CardsDataRaw = await Promise.all(promises);
+
+  let CardsData = CardsDataRaw.flat();CardsDataRaw
+
+  const hrefMap = CardsData.reduce((map, { href, quantity }) => {
+    map.set(href, (map.get(href) || 0) + (quantity / ndeck));
+    return map;
+  }, new Map());
+
+  const uniqueCards = Array.from(hrefMap, ([href, quantity]) => ({ href, quantity }));
+
+  uniqueCards.sort((a, b) => b.quantity - a.quantity);
+
+  //console.log(uniqueCards)
+  return uniqueCards;
+}
+
+export { getDecks, getDeckComps };

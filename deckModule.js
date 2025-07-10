@@ -1,7 +1,6 @@
 //const  { scrapePage } = require('./scrapper.js');
 //const { getDecks } = require('./scrapperV2.js');
 
-import { setFlagsFromString } from 'v8';
 import { getDecks } from './scrapperV2.js';
 
 export async function getDeckdata(){

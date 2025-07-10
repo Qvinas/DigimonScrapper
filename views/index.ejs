@@ -10,7 +10,7 @@
                 <% deckTotal += counts[i][1] %>
                 <% if(i < 24){ %>
                     <li>
-                        <%= counts[i][0] %> : <%= counts[i][1] %> 
+                        <a href="/deck/<%= counts[i][0] %>"> <%= counts[i][0] %> </a> : <%= counts[i][1] %> 
                     </li>
                 <% } %>
             <% } %>
