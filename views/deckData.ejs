@@ -1,0 +1,20 @@
+<%- include('./components/header') %>
+<body>
+     <h1>
+        <%= deck %>
+     </h1>
+     <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <% cardData.forEach(entry => { %>
+            <div style="
+                    background-color: lightgray;
+                    border-radius: 5px;
+                    padding: 1rem;
+                ">
+                <img style="height: 300px;" src="<%= entry.href %>" alt="">
+                <hr>
+                <p>Quantity per deck: <%= entry.quantity %></p>
+            </div>
+        <% }) %>
+   </div>
+</body>
+</html>
